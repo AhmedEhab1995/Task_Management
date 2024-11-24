@@ -1,0 +1,12 @@
+<mat-card [ngClass]="{reminder: task?.reminder}" class="task" (click)="onToggle(task)">
+    <mat-card-header>
+      <mat-card-title>
+        <span>{{task?.text}}</span>
+        <span class="delete-btn" (click)="onDelete(task)">
+            <fa-icon [icon]="faTimes"></fa-icon>
+          </span>
+      </mat-card-title>
+      <mat-card-subtitle>{{task?.day}}</mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+  

@@ -1,0 +1,25 @@
+button {
+    display: block;
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Adjust font size */
+    color: white; /* Button text color */
+    background: linear-gradient(90deg, #56ab2f 0%, #a8e063 100%); /* Cool green gradient */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+  }
+
+  .task-card {
+    margin-bottom: 10px;
+  }
+  
+  mat-checkbox {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
